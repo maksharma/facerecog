@@ -57,6 +57,7 @@ static void InitializeFlipper(UIApplication *application) {
   #endif
 
   [super application:application didFinishLaunchingWithOptions:launchOptions];
+  [NSThread sleepForTimeInterval:5.0];
 
   return YES;
 }
